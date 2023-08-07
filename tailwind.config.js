@@ -8,7 +8,6 @@ module.exports = {
     require('@tailwindcss/line-clamp'),
     require('@tailwindcss/container-queries'),
   ],
-  ...shadcnConfig,
 
   content: [
     './app/helpers/**/*.rb',
@@ -21,5 +20,6 @@ module.exports = {
   },
   variants: {
     extend: {}
-  }
+  },
+  ...shadcnConfig
 }
