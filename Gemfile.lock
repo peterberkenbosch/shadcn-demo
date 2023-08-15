@@ -307,7 +307,7 @@ GEM
       rubocop-performance (~> 1.18.0)
     stimulus-rails (1.2.2)
       railties (>= 6.0.0)
-    strong_migrations (1.6.0)
+    strong_migrations (1.6.1)
       activerecord (>= 5.2)
     tailwind_merge (0.7.4)
       lru_redux (~> 1.1)
